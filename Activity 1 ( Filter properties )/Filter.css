@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: mediumpurple;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid red;
+    border-radius: 7px;
+    height: 300px;
+
+    /* Apply filter proporties */
+    filter: blur(2px);
+
+    /* Different types of filter proporty we can apply. */
+    /* filter: brightness(2);
+    filter: contrast(1px);
+    filter: saturate(2px);
+    filter: grayscale(20%);
+    filter: hue-rotate(90deg); */
+}
+
