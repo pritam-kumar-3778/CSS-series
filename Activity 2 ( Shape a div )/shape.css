@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: mediumpurple;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) ;
+    height: 300px;
+    width: 400px;
+    background-color: crimson;
+    border: 2px solid black;
+    border-radius: 7px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+/*  1 : Search css clip path on google.
+    2 : Go throuth the link - Bennett feely
+    3 : Select the shape and copy the css code and paste 
+*/
