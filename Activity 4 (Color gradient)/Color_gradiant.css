@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+
+    /* css code to make colour gradiant */
+    background: linear-gradient(red, green, blue);
+}
+
+/* By default the colour formation is top to bottom but if we want left to right then add [to right]. 
+eg:- background: linear-gradient(to right, red, green, blue);
+
+if we want digonally then add [to right bottom]
+eg:-background: linear-gradient(to right bottom, red, green, blue);
+*/
