@@ -1,0 +1,29 @@
+h1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    color: orange;
+}
+#outer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) ;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-image: url(https://images.unsplash.com/photo-1701342802818-c269af396819?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner{
+    height: 250px;
+    width: 225px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.178);
+    backdrop-filter: blur(10px); /* With this reduce the intensity of background color of inner div. */
+}
