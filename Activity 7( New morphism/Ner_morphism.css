@@ -1,0 +1,13 @@
+body{
+    padding: 50px;
+    background-color: silver;
+}
+
+#box{
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    background-color: #c1c1c1;
+    box-shadow: 20px 20px 60px #00000044, inset -20px -20px 60px #ffffff46; /*set black and white color and reduce the intencity */
+
+}
